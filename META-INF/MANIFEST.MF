@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Model.Workspace.TestGroup
+Bundle-SymbolicName: Model.Workspace.TestGroup;singleton:=true
+Bundle-Activator: fr.imag.adele.cadse.testgroup.Activator
+Bundle-Version: 1.0.0
+Bundle-Localization: plugin
+Bundle-ClassPath: .
+Eclipse-LazyStart: false
+Export-Package: fr.imag.adele.cadse.testgroup,
+ fr.imag.adele.cadse.testgroup.managers
+Import-Package: fede.workspace.model.manager,
+ fede.workspace.tool.eclipse,
+ fr.imag.adele.cadse.cadseg.managers.dataModel,
+ fr.imag.adele.cadse.core,
+ fr.imag.adele.cadse.core.attribute,
+ fr.imag.adele.cadse.core.util,
+ org.eclipse.core.resources,
+ org.eclipse.core.runtime,
+ org.eclipse.core.runtime.jobs,
+ org.eclipse.ltk.core.refactoring,
+ org.osgi.framework
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.ui.ide
+
