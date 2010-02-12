@@ -6,13 +6,13 @@ Export-Package: fr.imag.adele.cadse.testgroup;uses:="org.eclipse.core.
  .imag.adele.cadse.core.attribute,fr.imag.adele.cadse.cadseg.managers.
  dataModel";version="2.3.0"
 Private-Package: model,icons,.
-Built-By: chomats
+Built-By: etienne
 Tool: Bnd-0.0.357
 Bundle-Name: Model.Workspace.TestGroup
 Created-By: Apache Maven Bundle Plugin
 Bundle-Vendor: Adele/LIG/ Grenoble University, France
-Build-Jdk: 1.6.0_17
-Bundle-Version: 2.3.0.SNAPSHOT
+Build-Jdk: 1.6.0_0
+Bundle-Version: 2.3.0.SNAPSHOT-201002121709
 Bundle-Activator: fr.imag.adele.cadse.testgroup.Activator
 Bundle-ManifestVersion: 2
 Bundle-Description: Test group concepts
