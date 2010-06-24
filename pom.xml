@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>fr.imag.adele.cadse</groupId>
+  <groupId>fr.imag.adele.cadse.runtime</groupId>
   <artifactId>Model.Workspace.TestGroup</artifactId>
   <packaging>bundle</packaging>
   <name>Model.Workspace.TestGroup</name>
@@ -8,7 +8,7 @@
   <description>Test group concepts</description>
   <parent>
   	<artifactId>fr.imag.adele.cadse.parent.osgi</artifactId>
-  	<groupId>fr.imag.adele.cadse</groupId>
+  	<groupId>fr.imag.adele.cadse.runtime</groupId>
   	<version>2.3.0-SNAPSHOT</version>
   	<relativePath>../fr.imag.adele.cadse.parent.osgi</relativePath>
   </parent>
@@ -52,7 +52,7 @@
 	</build>
 	<dependencies>
 		<dependency>
-			<groupId>fr.imag.adele.cadse</groupId>
+			<groupId>fr.imag.adele.cadse.runtime</groupId>
 			<artifactId>Model.Workspace.CadseG</artifactId>
 			<version>2.3.0-SNAPSHOT</version>
 		</dependency>
