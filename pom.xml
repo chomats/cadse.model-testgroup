@@ -4,7 +4,7 @@
   <artifactId>Model.Workspace.TestGroup</artifactId>
   <packaging>bundle</packaging>
   <name>Model.Workspace.TestGroup</name>
-  <version>2.3.1</version>
+  <version>2.3.2-SNAPSHOT</version>
   <description>Test group concepts</description>
   <parent>
   	<artifactId>fr.imag.adele.cadse.parent.osgi</artifactId>
